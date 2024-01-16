@@ -1,0 +1,23 @@
+// Loop for every 2 miles run on treadmill.
+// Starting point of loop is 0.
+// Loop needs to stop after hitting mile 6.
+// We need a conditional statement to end loop once the condition has been met.
+// miles will incremate by 2.
+// Var will be miles. 
+var milesRun=2
+    for(milesRun=2;milesRun<=6;milesRun=milesRun+2){
+        console.log(milesRun)
+        console.log('Have a piece of candy')
+    }
+    var speed=5.5
+    for(var milesRun=0;milesRun<=6;milesRun++){
+        if(milesRun%2==0 && milesRun>0 && speed>=5.5){
+            console.log('Have a piece of candy')    
+    }
+    var speed=5.5
+    for(var milesRun=0;milesRun<=6;milesRun++){
+        if(milesRun%2==0 && milesRun>0 && speed>5.5){
+            console.log('Have a piece of candy')    
+    }
+   }
+   // Stretch assignment to include if going faster than 5.5 MPH 
